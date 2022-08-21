@@ -11,7 +11,7 @@ const Flag = styled(ReactCountryFlag)`
 `;
 
 const Logo = styled.img`
-  width: 40%;
+  width: 60%;
 `;
 
 // two column layout
@@ -48,7 +48,7 @@ export const Home = () => {
   return (
     <Container>
       <div>
-        <Logo src={imago} alt="Imago" />
+        <Logo src={imago} alt="Oasis NFT" />
       </div>
       <div>
         {countries.map(([code, name]) => (
